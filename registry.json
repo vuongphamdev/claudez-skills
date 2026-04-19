@@ -1,20 +1,22 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "updated": "2026-04-19",
   "skills": [
     {
       "name": "example-skill",
-      "description": "Example skill showing the expected format. Replace or remove before publishing real skills.",
-      "filename": "example-skill.md",
-      "url": "https://raw.githubusercontent.com/vuongphamdev/claudez-skills/main/skills/example-skill.md",
+      "description": "Example skill showing the expected folder structure. Replace or remove before publishing real skills.",
+      "repo": "vuongphamdev/claudez-skills",
+      "path": "skills/example-skill",
+      "ref": "main",
       "tags": ["example"],
       "author": "vuongphamdev"
     },
     {
       "name": "commit",
       "description": "Generate conventional commit messages from staged changes and create the commit.",
-      "filename": "commit.md",
-      "url": "https://raw.githubusercontent.com/vuongphamdev/claudez-skills/main/skills/commit.md",
+      "repo": "vuongphamdev/claudez-skills",
+      "path": "skills/commit",
+      "ref": "main",
       "tags": ["git", "commit", "conventional-commits"],
       "author": "vuongphamdev"
     }

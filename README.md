@@ -84,11 +84,31 @@ claudez remove -a -g -f            # Remove every global skill without confirmin
 
 ## Contribute a skill
 
-1. Add a markdown file under `skills/` with frontmatter (`name`, `description`, `version`).
-2. Add an entry to `registry.json` with the matching `name`, `filename`, and `url`.
-3. Open a PR.
+1. Create a folder under `skills/<name>/` following the structure below.
+2. Add a `SKILL.md` file with frontmatter (`name`, `description`, `version`).
+3. Add an entry to `registry.json` with the matching `name`, `repo`, `path`, and `ref`.
+4. Open a PR.
 
-## Structure
+## Skill folder structure
+
+Each skill lives in its own folder under `skills/`:
+
+```
+skills/<name>/
+├── SKILL.md          # Required — the skill prompt with frontmatter
+├── scripts/          # Optional — helper scripts the skill can invoke
+├── references/       # Optional — reference docs, specs, or examples
+└── assets/           # Optional — images, templates, or other static files
+```
+
+| Path | Required | Description |
+|------|----------|-------------|
+| `SKILL.md` | Yes | The main skill file. Contains YAML frontmatter (`name`, `description`, `version`) and the prompt/instructions. |
+| `scripts/` | No | Shell scripts, Python scripts, or other executables the skill can call during execution. |
+| `references/` | No | Supporting documentation, API specs, style guides, or example files the skill references. |
+| `assets/` | No | Static files such as images, templates, config snippets, or other resources. |
+
+## Repository structure
 
 - `registry.json` — index of all published skills, fetched by the `claudez` CLI.
-- `skills/*.md` — the skill files themselves. Each is downloaded individually on install.
+- `skills/<name>/SKILL.md` — the skill files themselves, each in its own folder. Each is downloaded individually on install.
