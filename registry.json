@@ -9,6 +9,14 @@
       "url": "https://raw.githubusercontent.com/vuongphamdev/claudez-skills/main/skills/example-skill.md",
       "tags": ["example"],
       "author": "vuongphamdev"
+    },
+    {
+      "name": "commit",
+      "description": "Generate conventional commit messages from staged changes and create the commit.",
+      "filename": "commit.md",
+      "url": "https://raw.githubusercontent.com/vuongphamdev/claudez-skills/main/skills/commit.md",
+      "tags": ["git", "commit", "conventional-commits"],
+      "author": "vuongphamdev"
     }
   ]
 }
