@@ -12,12 +12,12 @@
       "author": "vuongphamdev"
     },
     {
-      "name": "commit",
-      "description": "Generate conventional commit messages from staged changes and create the commit.",
+      "name": "code-review",
+      "description": "Review code changes for bugs, security issues, and best practices, then output a structured report.",
       "repo": "vuongphamdev/claudez-skills",
-      "path": "skills/commit",
+      "path": "skills/code-review",
       "ref": "main",
-      "tags": ["git", "commit", "conventional-commits"],
+      "tags": ["review", "quality", "security"],
       "author": "vuongphamdev"
     }
   ]
