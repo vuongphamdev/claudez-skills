@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-04-19",
+  "skills": [
+    {
+      "name": "example-skill",
+      "description": "Example skill showing the expected format. Replace or remove before publishing real skills.",
+      "filename": "example-skill.md",
+      "url": "https://raw.githubusercontent.com/vuongphamdev/claudez-skills/main/skills/example-skill.md",
+      "tags": ["example"],
+      "author": "vuongphamdev"
+    }
+  ]
+}
