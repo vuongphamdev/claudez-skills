@@ -1,6 +1,6 @@
 # claudez-skills
 
-Public registry of skills for [claudez](https://github.com/vuongphamdev/claudez).
+Public registry of skills for [claudez](https://www.npmjs.com/package/claudez).
 
 ## Getting started
 
